@@ -31,7 +31,6 @@ public class AttractionListActivity extends AppCompatActivity {
         actionBar.show();
         bindData();
         canadaAttractionAdapter = new CanadaAttractionAdapter(canadaAttractions);
-       // RecyclerView.LayoutManager laymanager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,true);
         StaggeredGridLayoutManager str = new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.VERTICAL);
         rvCadAttraction.setLayoutManager(str);
         rvCadAttraction.setAdapter(canadaAttractionAdapter);
