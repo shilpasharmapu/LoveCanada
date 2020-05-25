@@ -1,0 +1,2 @@
+rootProject.name='LoveCanada'
+include ':app'
